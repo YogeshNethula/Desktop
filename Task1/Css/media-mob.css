@@ -1,0 +1,190 @@
+@media screen and (min-width:375px) {
+    header{
+        font-size:23px;
+        font-weight:400;
+        opacity:1;
+    }
+    /* section-1 */
+    .section-1{
+        height:115vh;
+    }
+    .section-1 div{
+        
+        margin:147px 0px 0px 22px;
+        width:86%;
+    }
+    .section-1 div>p:first-child{
+        font-size:22px;
+    }
+    .section-1 p{
+        font-size:47px;
+    }
+    /* section-2 */
+    .feature_boxes{
+        display:inline;
+        
+    }
+    .feature_box{
+        width:70%;
+        height:200px;
+        margin: 0px 0px 40px 46px;
+        border:0.2px solid rgb(89, 87, 87);
+        padding:4%;
+    }
+    .feature_box i{
+        height:62px;
+        width:62px;
+        font-size: 55px;
+    }
+    .feature_box h4{
+        font-size:20px;
+    }
+    .feature_box p{
+        font-size: 18px;
+    }
+    /* section-3 */
+    .section-3{
+        background-image: url('/IMAGES/02_IMacWorkSpace2_Mockupsforfree.jpg');
+        height: 100vh;
+        background-position: 73%;
+        zoom: 106%
+    }
+    .section-3-left{
+        display:none;
+    }
+    .section-3-right{
+        background-color: unset;
+        width:100%;
+    }
+    .part-1{
+        width:90%;
+        margin:50px 0px 0px 12px;
+        background-color:white;
+        opacity:0.8;
+    }
+    .part-1 p:first-child{
+        font-size:18px;
+    }
+    .part-1 h5{
+        font-size:23px;
+    }
+    .part-1 p{
+        font-size:13px;
+        opacity:1;
+    }
+    .part-2{
+        display:inline;
+    }
+    .part{
+        width:85%;
+        padding:4%;
+        opacity:0.8;
+    }
+    .part h6{
+        font-size:16px;
+    }
+    .part p{
+        font-size:11px;
+    }
+    /* section-4 */
+    .section-4{
+        display:inline;
+        height:90vh;
+       
+    }
+    .section-4 div{
+        width:100%;
+        height:310px;
+        margin:0%;
+    }
+    .section-4 img{
+        width:100%;
+    }
+    .desc p:first-child{
+        font-size:30px;
+    }
+    .desc h5{
+        font-size:24px;
+    }
+    .desc p,h6{font-size:20px;}
+    .desc > *{padding:7px 31px 0px 45px;}
+    /* section-5 */
+    .section-5{
+        height:160vh;
+    }
+    .image-section img{
+        width:100%;
+        margin:13px 5px 13px 15px;
+
+    }
+    .image-section{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin:8px 0px 0px 19px;
+    }
+    /* section-6 */
+    .section-6{
+        display:inline;
+        height:100vh;
+    }
+    .section-6-left{
+        width:100%;
+    }
+    .section-6-right{
+        width:100%;
+    }
+    /* section-7 */
+    .section-7{
+        width:100%;
+        height:80vh;
+        background-image:linear-gradient(rgba(28, 26, 26, 0.9), rgba(255, 255, 255, 0.9)),url('/IMAGES/71ropHPoRUL.jpg');
+        zoom:100%;
+        opacity:1;
+        background-repeat: no-repeat;
+        align-items: center;
+    }
+    .section-7-left{
+        display:none;
+    }
+    .section-7-right{
+        width:80%;
+        height:90%;
+        /* background-color: azure; */
+        margin-left:40px;
+    }
+    .section-7-top_part{padding:12px;}
+    .section-7-top_part h6{width:300px;}
+    .section-7-top_part p{font-size:24px}
+    .section-7-top_part h6{font-size:24px}
+    .container{
+        margin:0px;
+    }
+    /* section-8 */
+    .section-8{
+        height:100vh;
+    }
+    .section-8 .block{
+        height:162px;
+        width:70%;
+    }
+    .section-8 .block > p{
+        font-size:4vh;
+    }
+    /* section-9 */
+    .section-9{
+        height:auto;
+        background-color: black;
+    }
+    iframe{
+        padding:37px 59px 0px 0px;
+    }
+    .contact{
+        display:none;
+    }
+    .map{
+        background-color: black;
+    }
+
+
+}

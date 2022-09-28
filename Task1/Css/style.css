@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    * {
+        font-family: 'Roboto', sans-serif;
+    }
+    body {
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    body > p,h1,h2,h3,h4,h5,h6{
+        margin:0px;
+        padding:0px;
+    }
+    
+    .section-1 {
+        background-image: linear-gradient(rgba(28, 26, 26, 0.5), rgba(255, 255, 255, 0.1)), url('../images/computer-job-Accentuate.jpg');
+        height: 120vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .section-1 header {
+        height: 40px;
+        padding: 17px 0px 0px 33px;
+    }
+    
+    header {
+        color: white;
+        font-weight: 100;
+        font-size: 12px;
+        opacity: 0.7;
+    }
+    
+    header>i {
+        color: red;
+        float: right;
+        padding-right: 30px
+    }
+    
+    .section-1 div {
+        width: 53%;
+        margin: 214px 0px 0px 80px;
+    }
+    
+    .section-1 div>p:first-child {
+        color: white;
+        font-size: 10px;
+        font-weight: 400;
+        padding-top: 0px
+    }
+    
+    .section-1 p {
+        color: white;
+        font-size: 65px;
+        font-weight: 600;
+        margin: 0px;
+        padding: 0px
+    }
+    /* section-2 */
+    .section-2 {
+        width: 100%;
+        text-align: center;
+        margin: -99px 0px 0px 0px
+    }
+    
+    .feature_boxes {
+        display: flex;
+    }
+    
+    .feature_box {
+        height: 210px;
+        width: 23%;
+        background-color: white;
+        margin: 3%;
+        text-align: center;
+        padding: 3%;
+        border: 0.2px rgb(89, 87, 87);
+        border-style: none groove groove groove;
+    }
+    
+    .feature_box i {
+        color: rgb(219, 112, 112);
+        background-color: rgba(245, 243, 241, 1);
+        height: 50px;
+        width: 50px;
+        font-size: 37px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    
+    .feature_box h4 {
+        font-size: 14px;
+        font-weight: 900;
+    }
+    
+    .feature_box p {
+        font-size: 15px;
+        color: #b5acac;
+        opacity: 1;
+    }
+    
+    .section-3 {
+        display: flex;
+    }
+    
+    .section-3-left {
+        width: 48%;
+        background-image: url('../IMAGES/02_IMacWorkSpace2_Mockupsforfree.jpg');
+        height: 100vh;
+        background-position: 73%;
+        zoom: 106%
+    }
+    
+    .section-3-right {
+        width: 52%;
+        background-color: #fbf8f9;
+        position: relative;
+    }
+    
+    .part-1 {
+        width: 70%;
+        background-color: white;
+        margin: 68px 0px 0px 91px;
+        height: 180px
+    }
+    
+    .part-1 p:first-child {
+        color: red;
+        font-size: 12px;
+        font-weight: 600;
+    
+    }
+    
+    .part-1 h5 {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .part-1 p {
+        color: #b5acac;
+        font-size: 13px;
+    }
+
+    
+    
+    .part-2 {
+        width: 70%;
+        display: flex;
+        margin: 45px 0px 0px 105px;
+    }
+    
+    .part {
+        width: 45%;
+        background-color: white;
+        margin: 2%;
+        padding: 6%;
+    }
+    
+    .part h6 {
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+        color:black
+    }
+    
+    .part p {
+        font-size: 8px;
+        font-weight: 600;
+        color: #b5acac
+    }
+    
+    .section-4 {
+        height: 48vh;
+        width: 100%;
+        display: flex;
+    }
+    
+    .section-4 div {
+        color: white;
+        height: 100%;
+        background-color: black;
+        width: 25%
+    }
+    
+    .section-4 img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+    .desc > * {padding: 12px 14px 0px 21px;}
+    .desc p:first-child{
+        color:red;
+        font-size:14px;
+    
+    }
+    .desc h5{font-size:16px;font-weight: 600}
+    .desc p,h6{color:red;font-size:10px;}
+    
+    
+    .section-5 {
+        height: 130vh;
+    }
+    
+    .section-5>div {
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+    .section-5 div p:first-child {
+        color: red;
+        font-weight: 100;
+    }
+    
+    .section-5 p {
+        font-weight: 600;
+    }
+    
+    .image-section img {
+        height: 180px;
+        width: 90%;
+        margin: 5%
+    }
+    
+    .image-section {
+        display: grid;
+        width: 89%;
+        height: 90vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: -19px 0px 0px 55px
+    }
+    /* section-6 */
+    .section-6{
+        height:80vh;
+        width:100%;
+        display:flex;
+    }
+    .section-6-right{
+        width:50%;
+    }
+    .section-6-right img{
+        width:100%;
+        object-fit:contain;
+        height:80%;
+        
+    }
+    .section-6-left{
+        width:50%;
+        height: 100%;
+        align-items: center;
+    }
+    /* .section-6-left > *{
+        align-items:;
+    } */
+    .section-6-left p{
+        color:red;
+        font-size:14px;
+        margin:10px;
+        padding:67px 0px 0px 62px;
+    }
+    .section-6-left h6{
+        color:black;
+        font-size:16px;
+        font-weight:900;
+        padding:0px 0px 0px 73px;
+    }
+    .section-6-left ol{
+        color:#b5acab;
+        padding:0px 0px 0px 80px;
+        font-size:12px;
+        margin:2%
+    }
+    ol > li{
+        line-height: 21px;
+    }
+    /* section-7 */
+    .section-7{
+        width:100%;
+        height:90vh;
+        display:flex;
+        background-color: #e4e4e4;
+    }
+    .section-7-left{
+        width:40%;
+        background-image:url('../IMAGES/71ropHPoRUL.jpg');
+        zoom:100%;
+     
+    }
+    .section-7-right{
+        width:60%;
+        height:100%;
+    }
+    .section-7-top_part{
+        padding-left:65px;
+        margin-top:30px;
+    }
+    .section-7-top_part p{
+        color:red;
+        padding:0px;
+        font-size:14px;
+        margin:0px;
+    }
+    .section-7-top_part h6{
+        color:black;
+        font-size:18px;
+        font-weight:600;
+        margin:0px;
+        width:150px;
+    }
+    .container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        position:relative;
+        margin:28px 0px 0px 45px;
+    }
+    .features{
+        width:150px;
+        margin:7%;
+    }
+    .features p:first-child{
+        font-size:14px;
+        font-weight: 600;
+    }
+    .features p{
+        font-size:12px;
+        font-weight: 600;
+    }
+    /* section-8 */
+    .section-8{
+        background-image:linear-gradient(rgba(28, 26, 26, 0.7), rgba(29, 27, 27, 0.4)), url('../IMAGES/computer-job-Accentuate.jpg');
+        object-fit:cover;
+        height:60vh;
+        width:100%;
+        background-repeat: no-repeat;
+        position:relative;
+        text-align: center;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .section-8  .block {
+        border:2px solid rgb(168, 166, 166);
+        width:55%;
+        height:180px;
+        position:absolute;
+    }
+    .section-8  .block > p:first-child{
+        color:red;
+        font-size:12px;
+        margin:0px
+    }
+    .section-8 .block > p{
+        font-weight:900;
+        font-size:6.5vh;
+        color:white;
+        padding:2%;
+        margin:0px
+    }
+    /* section-9 */
+    .section-9{
+        height:80vh;
+        width:100%;
+        background-color: black;
+    }
+    iframe{
+        height:350px;
+        width:470px;
+        float:right;
+        position:relative;
+        padding:25px 38px 0px 0px;
+        border:none;
+    }
+    .contact{
+        color:rgb(161, 161, 161);
+        font-size:12px;
+        align-items: center;
+        padding:150px;
+        height:10%;
+    }
+    .contact h6{
+        color:white;
+        font-size:18px
+    }
+    /* section-footer */
+    .footer{
+        height:30vh;
+        width:100%;
+        background-color: rgb(128, 128, 128);
+        display:flex;
+    }
+    .footer div{
+        color: white;
+        font-size:14px;
+        width:60%;
+        height:50%;
+        margin:4%;
+        text-align: center;
+    }
+    .footer h6{
+        color:white;
+        font-size:18px;
+    }
