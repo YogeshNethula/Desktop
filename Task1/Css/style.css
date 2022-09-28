@@ -22,13 +22,13 @@
     
     .section-1 header {
         height: 40px;
-        padding: 17px 0px 0px 33px;
+        padding: 42px 94px 0px 126px;
     }
     
     header {
         color: white;
         font-weight: 100;
-        font-size: 12px;
+        font-size: 28px;
         opacity: 0.7;
     }
     
@@ -39,20 +39,20 @@
     }
     
     .section-1 div {
-        width: 53%;
-        margin: 214px 0px 0px 80px;
+        width: 41%;
+        padding: 449px 0px 0px 129px;
     }
     
     .section-1 div>p:first-child {
         color: white;
-        font-size: 10px;
+        font-size: 27px;
         font-weight: 400;
         padding-top: 0px
     }
     
     .section-1 p {
         color: white;
-        font-size: 65px;
+        font-size: 97px;
         font-weight: 600;
         margin: 0px;
         padding: 0px
@@ -61,7 +61,7 @@
     .section-2 {
         width: 100%;
         text-align: center;
-        margin: -99px 0px 0px 0px
+        margin: -156px 0px 0px 0px
     }
     
     .feature_boxes {
@@ -69,7 +69,7 @@
     }
     
     .feature_box {
-        height: 210px;
+        height: 284px;
         width: 23%;
         background-color: white;
         margin: 3%;
@@ -82,20 +82,20 @@
     .feature_box i {
         color: rgb(219, 112, 112);
         background-color: rgba(245, 243, 241, 1);
-        height: 50px;
-        width: 50px;
-        font-size: 37px;
+        height: 67px;
+        width: 67px;
+        font-size: 50px;
         border-radius: 50%;
         text-align: center;
     }
     
     .feature_box h4 {
-        font-size: 14px;
+        font-size: 22px;
         font-weight: 900;
     }
     
     .feature_box p {
-        font-size: 15px;
+        font-size: 24px;
         color: #b5acac;
         opacity: 1;
     }
@@ -107,7 +107,7 @@
     .section-3-left {
         width: 48%;
         background-image: url('../IMAGES/02_IMacWorkSpace2_Mockupsforfree.jpg');
-        height: 100vh;
+        height: 66vh;
         background-position: 73%;
         zoom: 106%
     }
@@ -127,13 +127,13 @@
     
     .part-1 p:first-child {
         color: red;
-        font-size: 12px;
+        font-size: 18px;
         font-weight: 600;
     
     }
     
     .part-1 h5 {
-        font-size: 18px;
+        font-size: 31px;
         font-weight: 600;
         padding: 0px;
         margin: 0px;
@@ -141,7 +141,7 @@
     
     .part-1 p {
         color: #b5acac;
-        font-size: 13px;
+        font-size: 20px;
     }
 
     
@@ -160,14 +160,14 @@
     }
     
     .part h6 {
-        font-size: 12px;
+        font-size: 23px;
         margin: 0px;
         padding: 0px;
         color:black
     }
     
     .part p {
-        font-size: 8px;
+        font-size: 15px;
         font-weight: 600;
         color: #b5acac
     }
@@ -193,11 +193,11 @@
     .desc > * {padding: 12px 14px 0px 21px;}
     .desc p:first-child{
         color:red;
-        font-size:14px;
+        font-size:23px;
     
     }
-    .desc h5{font-size:16px;font-weight: 600}
-    .desc p,h6{color:red;font-size:10px;}
+    .desc h5{font-size:35px;font-weight: 600}
+    .desc p,h6{color:red;font-size:19px;}
     
     
     .section-5 {
@@ -219,7 +219,7 @@
     }
     
     .image-section img {
-        height: 180px;
+        height: 390px;
         width: 90%;
         margin: 5%
     }
@@ -229,7 +229,7 @@
         width: 89%;
         height: 90vh;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin: -19px 0px 0px 55px
+        margin: -19px 0px 0px 108px
     }
     /* section-6 */
     .section-6{
@@ -251,29 +251,29 @@
         height: 100%;
         align-items: center;
     }
-    /* .section-6-left > *{
-        align-items:;
-    } */
+    .section-6-left{
+        padding:0px 0px 0px 73px;
+    }
     .section-6-left p{
         color:red;
-        font-size:14px;
+        font-size:29px;
         margin:10px;
-        padding:67px 0px 0px 62px;
+        padding:211px 0px 0px 62px;
     }
     .section-6-left h6{
         color:black;
-        font-size:16px;
+        font-size:35px;
         font-weight:900;
         padding:0px 0px 0px 73px;
     }
     .section-6-left ol{
         color:#b5acab;
         padding:0px 0px 0px 80px;
-        font-size:12px;
+        font-size:21px;
         margin:2%
     }
     ol > li{
-        line-height: 21px;
+        line-height: 28px;
     }
     /* section-7 */
     .section-7{
@@ -285,7 +285,7 @@
     .section-7-left{
         width:40%;
         background-image:url('../IMAGES/71ropHPoRUL.jpg');
-        zoom:100%;
+        zoom:189%;
      
     }
     .section-7-right{
@@ -293,39 +293,39 @@
         height:100%;
     }
     .section-7-top_part{
-        padding-left:65px;
-        margin-top:30px;
+        padding-left:139px;
+        margin-top:97px;
     }
     .section-7-top_part p{
         color:red;
         padding:0px;
-        font-size:14px;
+        font-size:24px;
         margin:0px;
     }
     .section-7-top_part h6{
         color:black;
-        font-size:18px;
+        font-size:28px;
         font-weight:600;
         margin:0px;
-        width:150px;
+        width:29%;
     }
     .container{
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         position:relative;
-        margin:28px 0px 0px 45px;
+        margin:90px 0px 0px 124px;
     }
     .features{
-        width:150px;
-        margin:7%;
+        width:170px;
+        margin:5%;
     }
     .features p:first-child{
-        font-size:14px;
+        font-size:28px;
         font-weight: 600;
     }
     .features p{
-        font-size:12px;
+        font-size:15px;
         font-weight: 600;
     }
     /* section-8 */
@@ -344,12 +344,12 @@
     .section-8  .block {
         border:2px solid rgb(168, 166, 166);
         width:55%;
-        height:180px;
+        height:330px;
         position:absolute;
     }
     .section-8  .block > p:first-child{
         color:red;
-        font-size:12px;
+        font-size:23px;
         margin:0px
     }
     .section-8 .block > p{
@@ -366,8 +366,8 @@
         background-color: black;
     }
     iframe{
-        height:350px;
-        width:470px;
+        height:700px;
+        width:700px;
         float:right;
         position:relative;
         padding:25px 38px 0px 0px;
@@ -375,14 +375,14 @@
     }
     .contact{
         color:rgb(161, 161, 161);
-        font-size:12px;
+        font-size:22px;
         align-items: center;
-        padding:150px;
+        padding:305px;
         height:10%;
     }
     .contact h6{
         color:white;
-        font-size:18px
+        font-size:33px
     }
     /* section-footer */
     .footer{

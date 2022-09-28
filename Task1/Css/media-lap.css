@@ -1,8 +1,5 @@
 @media screen and (max-width:900px) {
-    @import url('');
-    * {
-        font-family:"Lobster" sans-serif;
-    }
+    
     /* section-1 */
     .section-1 div{
         width:57%;
