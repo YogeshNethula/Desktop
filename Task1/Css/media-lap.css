@@ -10,10 +10,12 @@
     }
     /* section-2 */
     .section-2{
-        margin:-72px 0px 0px 0px;
+        margin:-140px 0px 0px 90px;
+        height:81vh;
     }
     .feature_box{
-        height:260px;
+        width:17%;
+        height:400px;
         padding:2%;
     }
     .feature_box i{
@@ -22,8 +24,8 @@
         font-size:45px;
     }
     .feature_box h4{
-        font-size:18px;
-        margin-top:20px;
+        font-size:17px;
+        margin-top:-2px;
     }
     .feature_box p{
         font-size:20px;
@@ -35,8 +37,8 @@
     .part-1{
         height:auto;
         margin:23px 0px 0px 33px;
-        width:70%;
-        padding:3%;
+        width:81%;
+        padding:5%;
 
     }
     .part-1 h5{
@@ -46,18 +48,21 @@
         font-size: 15px;
     }
     .part-2{
-        margin:23px 0px 0px 43px;
+        margin:14px 0px 0px 16px;
     }
     .part{
         width:50%;
         padding:4%;
         margin:2%;
     }
+    .part p{
+        font-style:italic;
+    }
     /* section-4 */
     .desc p:first-child{font-size: 19px;}
     .desc h5{font-size:19px;}
-    .desc p,h6{font-size: 14px;}
-    .desc > *{padding:18px 14px 0px 18px}
+    .desc p,h6{font-size: 14px;line-height:32px;}
+    .desc > *{padding:0px 14px 0px 26px;}
     /* section-5 */
     .section-5{
         height:147vh;
@@ -66,7 +71,7 @@
         padding-top:0px;
     }
     .image-section{
-        margin:0px 0px 0px 83px;
+        margin:0px 0px 0px -12px;
     }
     .image-section img{
         height:280px;
@@ -105,7 +110,7 @@
     }
     /* section-8 */
     .section-8{
-        height:80vh;
+        height:100vh;
         background-image:linear-gradient(rgba(28, 26, 26, 0.7), rgba(23, -27, 9, 0.7)), url('../images/computer-job-Accentuate.jpg');
     }
     /* section-9 */

@@ -14,7 +14,7 @@
     
     .section-1 {
         background-image: linear-gradient(rgba(28, 26, 26, 0.5), rgba(255, 255, 255, 0.1)), url('../images/computer-job-Accentuate.jpg');
-        height: 120vh;
+        height: 125vh;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -26,28 +26,29 @@
     }
     
     header {
-        color: white;
+        color: #F6D5CD;
         font-weight: 100;
         font-size: 28px;
         opacity: 0.7;
     }
     
-    header>i {
-        color: red;
+    .section-1 > header > i {
+        color: #dfdddc;
         float: right;
-        padding-right: 30px
+        padding-right: 30px;
+        font-size:40px;
     }
     
     .section-1 div {
         width: 41%;
-        padding: 449px 0px 0px 129px;
+        padding: 334px 0px 0px 205px;
     }
     
     .section-1 div>p:first-child {
         color: white;
         font-size: 27px;
         font-weight: 400;
-        padding-top: 0px
+        padding-bottom: 61px;
     }
     
     .section-1 p {
@@ -59,75 +60,86 @@
     }
     /* section-2 */
     .section-2 {
-        width: 100%;
+        width: 92%;
+        height:71vh;
         text-align: center;
-        margin: -156px 0px 0px 0px
+        margin: -156px 0px 0px 115px
     }
     
     .feature_boxes {
         display: flex;
+        margin-right: 38px;
     }
     
     .feature_box {
-        height: 284px;
-        width: 23%;
+        height: 419px;
+        width: 16%;
         background-color: white;
-        margin: 3%;
+        margin: 2%;
         text-align: center;
-        padding: 3%;
+        padding: 2%;
         border: 0.2px rgb(89, 87, 87);
         border-style: none groove groove groove;
     }
     
     .feature_box i {
-        color: rgb(219, 112, 112);
-        background-color: rgba(245, 243, 241, 1);
-        height: 67px;
-        width: 67px;
-        font-size: 50px;
+        color: #f99fc1;
+        background-color:#ff2850;
+        height: 89px;
+        width: 116px;
+        font-size: 60px;
         border-radius: 50%;
-        text-align: center;
+        padding-top:30px;
+       
     }
     
     .feature_box h4 {
         font-size: 22px;
         font-weight: 900;
+        padding: 13%;
+       
     }
     
     .feature_box p {
         font-size: 24px;
         color: #b5acac;
         opacity: 1;
+        line-height: 39px;
+        font-style:italic !important;
     }
     
     .section-3 {
         display: flex;
+        height:120vh;
     }
     
     .section-3-left {
         width: 48%;
         background-image: url('../IMAGES/02_IMacWorkSpace2_Mockupsforfree.jpg');
-        height: 66vh;
-        background-position: 73%;
-        zoom: 106%
+        height: 120vh;
+        background-position-x: 73%;
+        background-repeat: no-repeat;
+        zoom: 179%;
+       
     }
     
     .section-3-right {
         width: 52%;
-        background-color: #fbf8f9;
+        background-color:#EFEDEE;
         position: relative;
     }
     
     .part-1 {
-        width: 70%;
-        background-color: white;
+        width: 77%;
+        background-color:#F0F0F0;
         margin: 68px 0px 0px 91px;
-        height: 180px
+        height: 34%;
+        padding:4%;
     }
     
     .part-1 p:first-child {
         color: red;
-        font-size: 18px;
+        font-size: 28px;
         font-weight: 600;
     
     }
@@ -140,23 +152,28 @@
     }
     
     .part-1 p {
-        color: #b5acac;
+        color: #7c7c7c;
         font-size: 20px;
+        line-height: 53px;
+        opacity:1;
     }
 
     
     
     .part-2 {
-        width: 70%;
+        width: 84%;
         display: flex;
         margin: 45px 0px 0px 105px;
+    }
+    .part-2 .part:first-child{
+        margin-right:60px;
     }
     
     .part {
         width: 45%;
-        background-color: white;
-        margin: 2%;
-        padding: 6%;
+        margin: 0px 0px 0px 0px;
+        padding: 8%;
+        background-color: #f0f0f0;
     }
     
     .part h6 {
@@ -169,7 +186,8 @@
     .part p {
         font-size: 15px;
         font-weight: 600;
-        color: #b5acac
+        color: #b5acac;
+        line-height: 38px;
     }
     
     .section-4 {
@@ -192,12 +210,13 @@
     }
     .desc > * {padding: 12px 14px 0px 21px;}
     .desc p:first-child{
-        color:red;
+        color:#87293D;
         font-size:23px;
     
     }
-    .desc h5{font-size:35px;font-weight: 600}
-    .desc p,h6{color:red;font-size:19px;}
+    .desc h5{font-size:35px;font-weight: 600;color:#C5C5C5}
+    .desc p,h6{color:#87293D;;font-size:19px;}
+    .desc p{color:#505050;font-size:19px;line-height:38px;}
     
     
     .section-5 {
@@ -210,12 +229,14 @@
     }
     
     .section-5 div p:first-child {
-        color: red;
+        color: #d56d85;
         font-weight: 100;
+        font-size: 27px;
     }
     
     .section-5 p {
         font-weight: 600;
+        font-size: 30px;
     }
     
     .image-section img {
@@ -229,7 +250,7 @@
         width: 89%;
         height: 90vh;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin: -19px 0px 0px 108px
+        padding: 64px 0px 0px 108px
     }
     /* section-6 */
     .section-6{
@@ -253,12 +274,13 @@
     }
     .section-6-left{
         padding:0px 0px 0px 73px;
+        line-height: 47px;
     }
     .section-6-left p{
-        color:red;
+        color:#d56d85;;
         font-size:29px;
         margin:10px;
-        padding:211px 0px 0px 62px;
+        padding:158px 0px 0px 62px;
     }
     .section-6-left h6{
         color:black;
@@ -270,15 +292,18 @@
         color:#b5acab;
         padding:0px 0px 0px 80px;
         font-size:21px;
-        margin:2%
+        margin:2%;
+        line-height:10px;
     }
     ol > li{
-        line-height: 28px;
+        line-height: 47px;
+        font-style:italic;
+        color:#818181;
     }
     /* section-7 */
     .section-7{
         width:100%;
-        height:90vh;
+        height:100vh;
         display:flex;
         background-color: #e4e4e4;
     }
@@ -294,19 +319,19 @@
     }
     .section-7-top_part{
         padding-left:139px;
-        margin-top:97px;
+        margin-top:117px;
     }
     .section-7-top_part p{
         color:red;
         padding:0px;
-        font-size:24px;
+        font-size:28px;
         margin:0px;
     }
     .section-7-top_part h6{
         color:black;
-        font-size:28px;
-        font-weight:600;
-        margin:0px;
+        font-size:33px;
+        font-weight:900;
+        margin-top:27px;
         width:29%;
     }
     .container{
@@ -317,22 +342,27 @@
         margin:90px 0px 0px 124px;
     }
     .features{
-        width:170px;
+        width:220px;
         margin:5%;
     }
     .features p:first-child{
         font-size:28px;
         font-weight: 600;
+        color:black;
+        font-style:none;
     }
-    .features p{
-        font-size:15px;
+    .features > p{
+        font-size:16px;
+        font-style:italic;
         font-weight: 600;
+        color:#8D8D8D;
+        line-height: 30px;;
     }
     /* section-8 */
     .section-8{
         background-image:linear-gradient(rgba(28, 26, 26, 0.7), rgba(29, 27, 27, 0.4)), url('../IMAGES/computer-job-Accentuate.jpg');
-        object-fit:cover;
-        height:60vh;
+        background-size: cover;
+        height:87vh;
         width:100%;
         background-repeat: no-repeat;
         position:relative;
@@ -346,6 +376,7 @@
         width:55%;
         height:330px;
         position:absolute;
+        padding:3%;
     }
     .section-8  .block > p:first-child{
         color:red;
@@ -361,7 +392,7 @@
     }
     /* section-9 */
     .section-9{
-        height:80vh;
+        height:95vh;
         width:100%;
         background-color: black;
     }
@@ -370,7 +401,7 @@
         width:700px;
         float:right;
         position:relative;
-        padding:25px 38px 0px 0px;
+        padding:111px 160px 0px 0px;
         border:none;
     }
     .contact{
@@ -379,6 +410,7 @@
         align-items: center;
         padding:305px;
         height:10%;
+        line-height: 47px;
     }
     .contact h6{
         color:white;
