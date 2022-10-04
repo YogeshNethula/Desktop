@@ -73,7 +73,7 @@ span > button{
 }
 #form{
     display:none;
-    background-color: white;
+    /* background-color: white;
     width:40%;
     min-width:300px;
     min-height: 20px;
@@ -81,5 +81,5 @@ span > button{
     border-radius:15px;
     padding:20px;
     top:55%;
-    left:30%;
+    left:30%; */
 }
