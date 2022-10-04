@@ -1,0 +1,85 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color:#1D75C8;
+}
+.container{
+    background-color: white;
+    width:40%;
+    min-width:300px;
+    min-height: 70px;
+    position:absolute;
+    border-radius:15px;
+    padding:20px;
+    top:15%;
+    left:30%;
+    
+}
+.row > *{
+    height:50px;
+    border:1px solid blue;
+    border-radius:15px;
+    padding:10px;
+    margin:10px;
+}
+.row > button{
+    background-color: #1D75C8;
+    color:white;
+    float:right;
+    width:14%;
+    margin:10px 10px 10px 0px;
+}
+.row input{
+    width:80%;
+}
+#task_list{
+    transform: translateY(50% 50%);
+    background-color: white;
+    width:40%;
+    min-width:300px;
+    min-height: 50px;
+    position:absolute;
+    border-radius:15px;
+    padding:0px;
+    top:45%;
+    left:30%;
+    height:auto;
+}
+
+li{
+    background-color:aqua;
+    width:100%;
+    min-width:300px;
+    min-height: 30px;
+    position:relative;
+    border-radius:15px;
+    padding:20px;
+    height:auto;
+    border: #1D75C8;
+    margin:2px 2px 2px 0px;
+    list-style-type:none;
+}
+li > span{
+    column-gap:10px;float:right;
+}
+span > button{
+    height:40px;
+    background-color: #1D75C8;
+    border:1px solid blue;
+    border-radius:15px;
+    padding:10px;
+    color:white;
+    margin:-18px 34px 0px 0px;
+}
+#form{
+    display:none;
+    background-color: white;
+    width:40%;
+    min-width:300px;
+    min-height: 20px;
+    position:absolute;
+    border-radius:15px;
+    padding:20px;
+    top:15%;
+    left:30%;
+}
