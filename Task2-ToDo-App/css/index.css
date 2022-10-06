@@ -62,7 +62,7 @@ li{
 li > span{
     column-gap:10px;float:right;
 }
-span > button{
+span > button:first-child{
     height:40px;
     background-color: #1D75C8;
     border:1px solid blue;
@@ -73,13 +73,17 @@ span > button{
 }
 #form{
     display:none;
-    /* background-color: white;
+    background-color:green;
     width:40%;
     min-width:300px;
     min-height: 20px;
     position:absolute;
     border-radius:15px;
-    padding:20px;
-    top:55%;
-    left:30%; */
+    padding:10px;
+    top:32%;
+    left:30%;
+}
+.btn{
+    margin:0px;
+    padding:0px;
 }
