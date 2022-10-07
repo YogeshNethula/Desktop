@@ -9,6 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/index.css">
+    <script src="/index.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
     </div>
     <div class="container" id="form">
         <div class="row"><input type="text" id="task_name2" placeholder="Edit a new task" required>
-            <button id="add" onclick="add_function()">OK</button>
+            <button id="add" >OK</button>
         </div>
     </div>
     
@@ -28,46 +29,5 @@
         <li id="task">Sample Task <span><button type="button"  data-modal="form">UPDATE</button><span id="delete" class="material-symbols-outlined" style="float:right;">cancel</span></span></li>
 
     </div>
-    <script>
-        var i = 0
-        function push_function(){
-            i++;
-            const node = document.createElement("li");
-            node.setAttribute("value", i);
-            const textnode = document.getElementById("task_name").value;
-            let ind=node.getAttribute("value");
-            node.innerHTML=`<p style="display:inline;">${textnode}</p>`+`<span><button type="button" value=${ind} onclick="update_function(this.value)" data-modal="form">UPDATE</button><button id="delete" type="button" value=${ind} onclick="delete_Element(this.value)" class="material-symbols-outlined btn" style="float:right;">cancel</button></span></li>`;
-            document.getElementById("task_list").appendChild(node);
-            // console.log(ind);
-            
-        }
-        function update_function(value){
-            document.getElementById("form").style.display="block";
-            
-            var node = document.getElementById("task_list").children[value];
-            document.getElementById("add").addEventListener("click",function(){
-                
-                    const newTextnode = document.getElementById("task_name2").value;
-                    node.children[0].innerHTML=newTextnode;
-                    document.getElementById("form").style.display="none";
-            })
-            
-
-            console.log(node);
-        }
-        function delete_Element(value){
-            // var node = document.getElementById("task_list").children[value];
-            // document.getElementById("task_list").removeChild;
-
-            // var list = document.getElementById("task_list");
-            // var list = document.getElementById("task_list");
-            // const ul = document.querySelectorAll('ul li');
-            // console.log(ul[value])
-            // console.log(list);
-            // console.log(list[2])
-            // list[0];
-        }
-
-    </script>
 </body>
 </html>
