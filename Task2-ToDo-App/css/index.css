@@ -1,10 +1,18 @@
 body{
     padding:0px;
     margin:0px;
-    background-color:#1D75C8;
+    background-color:#ffebeb;
+}
+header{
+    height:70px;
+    background-color:rgb(62, 208,180);
+    color:rgb(220,64,1);
+    font-size:40px;
+    font-weight:900;
+    padding:10px 0px 0px 70px;
 }
 .container{
-    background-color: white;
+    /* background-color: white; */
     width:40%;
     min-width:300px;
     min-height: 70px;
@@ -17,10 +25,13 @@ body{
 }
 .row > *{
     height:50px;
-    border:1px solid blue;
+    border:5px solid blue;
     border-radius:15px;
     padding:10px;
     margin:10px;
+}
+.row > *:hover{
+    box-shadow:20px 20px 10px  rgb(120, 120, 119) ;
 }
 .row > button{
     background-color: #1D75C8;
@@ -28,6 +39,13 @@ body{
     float:right;
     width:14%;
     margin:10px 10px 10px 0px;
+}
+.row > button:hover{
+    color:darkolivegreen;
+    background-color: blanchedalmond;
+    border:2px solid #36e4e1;
+    font-weight:900;
+    font-size:20px;
 }
 .row input{
     width:80%;

@@ -3,7 +3,7 @@ const TaskList = [];
 var task = {Id:0,task_Name:"something"};
 function push_function(){
     if( document.getElementById("task_name").value!=""){
-        if(TaskList.some(obj => obj.task_Name === document.getElementById("task_name").value)){
+        if(TaskList.some(obj => obj.task_Name === document.getElementById("task_name").value || /obj.task_Name/i.test(document.getElementById("task_name").value))){
             document.getElementById("task_name").value=null;
             window.alert("Warning  Task already Exist");
         }else{
@@ -13,6 +13,7 @@ function push_function(){
             node.innerHTML=`<p style="display:inline;"></p><p  style="display:inline;">${task.task_Name}</p>`+`<span><button type="button" value=${task.Id} onclick="update_function(this.value)" data-modal="form">UPDATE</button><button id="delete" type="button" value=${task.Id} onclick="delete_Element(this.value)" class="material-symbols-outlined btn" style="float:right;">cancel</button></span></li>`;
             document.getElementById("task_list").appendChild(node);
             document.getElementById("task_name").value=null;
+            // console.log(TaskList);
     
         }
     }else alert("Empty Input field");         
@@ -29,6 +30,7 @@ function update_function(value){
             itemNo = 0;
             document.getElementById("task_name2").value=null;
             document.getElementById("form").style.display="none";
+            // console.log(TaskList);
         }else{alert("Empty Input field");}
 
     })
