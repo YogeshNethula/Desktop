@@ -1,0 +1,16 @@
+table{
+    width:70%;
+    border:2px solid blue;
+    margin: 11px 0px 0px 227px;
+    background-color: rgb(235, 241, 241);
+}
+td{
+    border:2px solid rgb(0, 111, 128);
+    padding:11px 26px 11px 26px;
+    color:darkslateblue
+}
+th{
+    border:5px solid rgb(201, 201, 201);
+    padding:11px 26px 11px 26px;
+    color:rgb(134, 35, 56);
+}

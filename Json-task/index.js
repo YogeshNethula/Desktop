@@ -24,7 +24,7 @@ var tbody=document.getElementById("tbody");
 
             <td>${data.title}</td>
 
-            <td class="fw-bold ${ data.completed ? 'text-success':'text-danger'}">${data.completed}</td>
+            <td >${data.completed}</td>
 
           </tr>
 
